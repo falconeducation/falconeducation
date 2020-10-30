@@ -1,0 +1,48 @@
+.filterDiv {
+    float: left;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Style the buttons */
+.fmbtn {
+    width: 100%;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #ffffff;
+    color: rgba(24,40,62,1);
+    cursor: pointer;
+    border: 2px solid rgba(24,40,62,1);
+    transition-duration: 1s;
+}
+
+.fmbtn:hover {
+    background-color: rgba(24,40,62,1);
+    color: #ffffff;
+    border: 2px dotted rgba(24,40,62,1);
+}
+
+.fmbtn.active {
+    outline: none;
+    padding: 12px 16px;
+    background-color: rgba(24,40,62,1);
+    color: #ffffff;
+    cursor: pointer;
+    border: 2px solid #000000;
+    transition-duration: 1s;
+}
