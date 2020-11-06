@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <title>Falcon Education</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/timeline.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 <body>
 
 <header>
 
     <nav class="navbar navbar-expand-lg navbar-dark gradient">
-        <img class="navbar-brand" src="logo1.png" width="35" style="margin-left: 25px;" />
+        <a href="index.html"><img class="navbar-brand" src="images/logo.png" width="35" style="margin-left: 25px;" alt="falcon" /></a>
         <h3 class="CompanyName">Falcon</h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColap" aria-controls="navbarColap" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -30,121 +32,215 @@
                     <a class="nav-link" href="#">Workshops <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Online courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Students</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="courses.html">Online courses</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
             </ul>
         </div>
     </nav>
+</header>
 
     <div class="col-md-11 container pt-3">
         <div class="row align-items-center">
             <div class="col-md-6">
                 <h3 class="BannerHead"><strong>Embedded Systems Workshop</strong></h3>
                 <p class="BannerText" style="color: rgba(24,40,62,1);"><strong>Automation is the future!</strong></p>
-                <p class="BannerText">Falcon offers Hands-on workshops and Online courses of superior quality at an affordable cost!!Falcon offers Hands-on workshops and Online courses of superior quality at an affordable cost!!Falcon offers Hands-on workshops and Online courses of superior quality at an affordable cost!!Falcon offers Hands-on workshops and Online courses of superior quality at an affordable cost!!</p>
+                <p class="BannerText">Industries are increasingly moving towards automation. We are already witnessing this wave with automated factories using KUKA robots, Amazon testing its "Prime Air" drone delivery technology, Boston Dynamics' robot army and even in self driving cars like Tesla. Ever wondered what is powering this revolution? It is Embedded Systems. It is the grand symphony of hardware and software enabling the development of programmable gadgets. In this workshop, students get training on the basics needed to enter this industry.</p>
                 <div class="container" style="background-color: #F1F6FC;padding: 25px;border-radius: 5px;">
                     <h5><strong>Course Details</strong></h5><br>
                     <p>
-                        <strong>Date: </strong> October 3 - October 11, 2020<br>
+                        <strong>Date: </strong> Coming Soon!<br>
                         <strong>Duration: </strong> 4 Days (2 Weekends)<br>
                         <strong>Place: </strong> IITM Research Park, Tharamani<br>
                         <strong>Pre-Requisites: </strong> Basic Programming knowledge (C or C++)
                     </p>
                 </div>
                 <br>
-                <button class="lowButton"><strong>Register</strong></button>
+                <button class="lowButton" onclick="noDate()"><strong>Register</strong></button>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" style="padding-top: 90px;" src="pc.png" />
+                <img class="img-responsive" style="padding-top: 90px;" src="images/workshop1.png" />
             </div>
         </div>
     </div>
-</header>
 
-<section id="timepath">
-    <h4 class="sideHead">Perks Of Embedded Systems Workshop</h4>
-    <div class="container" style="padding-top: 25px;">
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-timeline">
-                            <a class="timeline">
-                                <div class="timeline-icon"><i class="fa fa-file-code-o" aria-hidden="true"></i></div>
-                                <div class="timeline-content">
-                                    <h3 class="title">Project Based Curriculum</h3>
-                                    <p class="description">
-                                        Falcon imparts practical knowledge to meet the requirements of the industry. Imparts practical knowledge to meet the requirements of the industry.
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="timeline">
-                                <div class="timeline-icon"><i class="fa fa-briefcase" aria-hidden="true"></i></div>
-                                <div class="timeline-content">
-                                    <h3 class="title">Career Guidance</h3>
-                                    <p class="description">
-                                        Falcon helps to find best possible career path for students by exploring different disciplines. Helps to find best possible career path for students by exploring different disciplines.
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="timeline">
-                                <div class="timeline-icon"><i class="fa fa-address-card-o" aria-hidden="true"></i></div>
-                                <div class="timeline-content">
-                                    <h3 class="title">Strengthen The Resume</h3>
-                                    <p class="description">
-                                        We help you to create an attractive profile for the employees, facilitating successful interviews. Create an attractive profile for the employees, facilitating successful interviews.
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="timeline">
-                                <div class="timeline-icon"><i class="fa fa-angellist" aria-hidden="true"></i></div>
-                                <div class="timeline-content">
-                                    <h3 class="title">Simulates Entrepreneurship</h3>
-                                    <p class="description">
-                                        We highlight various production processes involved to create prototypes for ventures. Highlights the various production processes involved to create prototypes for ventures.
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
+<section id="content">
+    <h4 class="sideHead">Course Contents</h4>
+    <div class="container col-md-10 offset-md-1 mt-5 md-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 1</span></h4>
+                        <h5 class="card-title"><strong>Arduino Basics</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Introduction and software installation<br />
+                            - Setting up a Breadboard<br />
+                            - Digital I/O in Arduino UNO<br />
+                            - Analog I/O in Arduino UNO<br />
+                            - Serial Communication<br />
+                            - Mini Project 1 : Smart Traffic Light<br />
+                        </p>
                     </div>
                 </div>
             </div>
-        </main>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 2</span></h4>
+                        <h5 class="card-title"><strong>Arduino Projects</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Joystick module Interface<br />
+                            - Mini Project 2 : Joystick controller<br />
+                            - Pulse Width Modulation<br />
+                            - Servo Motor Interface<br />
+                            - Ultrasonic Sensor Interface<br />
+                            - Mini Project 3 : SONAR with GUI<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 3</span></h4>
+                        <h5 class="card-title"><strong>ATMEGA-328 Basics</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Introduction to ATMEGA-328<br />
+                            - Setting up ATMEGA-328 on Breadboard<br />
+                            - Bootloader and Serial Programming<br />
+                            - LED Blink with ATMEGA-328<br />
+                            - Switch Interface with ATMEGA-328<br />
+                            - Interrupts and Parallel Programming<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 4</span></h4>
+                        <h5 class="card-title"><strong>Final Project</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Timers in ATMEGA-328<br />
+                            - PWM in ATMEGA-328<br />
+                            - Analog to Digital Converter<br /><br />
+                            - Mega Project:<br />
+                            - - Servo robot arm with ATMEGA-328<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<section id="contact">
+<section id="timepathwork">
+    <h4 class="sideHead">Perks of Embedded System Workshop</h4>
+
+    <div class="container" style="padding-top: 25px;">
+        <!-- First Content Section-->
+        <div class="pt-5 row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im1.png" height="30px" alt="ti1" /></div>
+            </div>
+            <div class="col-6">
+                <h5>INNOVATIVE PROJECTS</h5>
+                <p>Consists of complex embedded projects tailored to fit the needs of the industry.</p>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!-- Second Content Section-->
+        <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+                <h5>TAKEAWAY KIT</h5>
+                <p>Kit with Arduino UNO, Atmega 328 and other components will be provided to the team of three.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im2.png" height="30px" alt="ti2" /></div>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner top-left"></div>
+            </div>
+        </div>
+        <!-- Third Content Section -->
+        <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center left-full d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im3.png" height="30px" alt="ti3" /></div>
+            </div>
+            <div class="col-6">
+                <h5>PROJECT GUIDANCE</h5>
+                <p>Students will be provided with assistance on projects and will be given career advice.</p>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!-- Fourth Content Section-->
+        <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+                <h5>DISCOUNTED OFFER</h5>
+                <p>Participants will be eligible for 10% discount on all future workshops.</p>
+            </div>
+            <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im4.png" height="30px" alt="ti4" /></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" style="padding: 0;">
     <div class="count-bg container-fluid" >
         <div class="container">
             <div class="row" id="contactPart">
                 <div class="col-sm-4 contact-set contact-link">
-                    <h3>Contact</h3>
+                    <h4>Contact</h4>
                     <br><br>
                     <a href="tel:+919789815246">Tel: +91 9789815246</a><br><br>
                     <a href="tel:+91 9840992523">Tel: +91 9840992523</a><br><br>
                     <a href="mailto:kkishore9891@gmail.com">Mail: Queries@falcon.in</a>
                 </div>
                 <div class="col-sm-4 contact-set">
-                    <h3>Visit us</h3>
+                    <h4>Visit us</h4>
                     <br>
-                    <p class="contact-set" style="line-height: 35px;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
+                    <p class="contact-set" style="line-height: 35px;color: white;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
                 </div>
                 <div class="col-sm-4 contact-set">
-                    <h3>Follow us</h3>
+                    <h4>Follow us</h4>
                     <div class="social-set">
-                        <a href="#" ><i class="so-ico fa fa-youtube-play" ></i></a>
+                        <a href="https://www.youtube.com/channel/UC5xtCVvdDo4zcra9DqoelIA" target="_blank" ><i class="so-ico fa fa-youtube-play" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-instagram" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-facebook-official" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-linkedin" ></i></a>
@@ -154,6 +250,20 @@
         </div>
     </div>
 </section>
+
+<script>
+    function noDate()
+    {
+        Swal.fire({
+            title: 'Our Apologies..',
+            text: 'Currently no batches have been scheduled. Next batch dates will be announced soon!',
+            imageUrl: "images/logo.png",
+            imageAlt: 'Falcon',
+            footer: '<a href="contact.html">Contact us for more information</a>'
+        })
+    }
+</script>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>

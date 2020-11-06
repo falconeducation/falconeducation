@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Falcon Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark gradient">
+        <a href="index.html"><img class="navbar-brand" src="images/logo.png" width="35" style="margin-left: 25px;" alt="falcon" /></a>
+        <h3 class="CompanyName">Falcon</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColap" aria-controls="navbarColap" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColap">
+            <ul class="navbar-nav ul-drop ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="workshop.html">Workshops</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Online courses <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+<!--                <li class="nav-item dropdown">-->
+<!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>-->
+<!--                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01" style="background-color: rgba(24,40,62,1);">-->
+<!--                        <a class="dropdown-item" href="#">Login</a>-->
+<!--                        <a class="dropdown-item" href="#">SignUp</a>-->
+<!--                        <a class="dropdown-item" href="#">Forgot Password</a>-->
+<!--                    </div>-->
+<!--                </li>-->
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="col-md-11 container pt-3">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h3 class="BannerHead"><strong>Basics Of Python Course</strong></h3>
+            <p class="BannerText" style="color: rgba(24,40,62,1);"><strong>The first step to glory!</strong></p>
+            <p class="BannerText">Python is the fastest growing language right now. Python is omnipresent. Be it Machine Learning, Embedded Systems, Computer vision, Natural Language Processing, Back-end development, Internet of things or any kind of automation, Python is the go-to language for a quick and easy solution. In this Basics of Python Course, participants are taught how to use the important modules and features of Python. Participants also get to work on innovative puzzles and Physics problems such as a rocket launch simulation! Why wait when its for free!</p>
+            <div class="container" style="background-color: #F1F6FC;padding: 25px;border-radius: 5px;">
+                <h5><strong>Course Details</strong></h5><br>
+                <p>
+                    <strong>Date: </strong> Coming Soon!<br>
+                    <strong>Duration: </strong> 4 Days (2 Weekends)<br>
+                    <strong>Place: </strong> IITM Research Park, Tharamani<br>
+                    <strong>Pre-Requisites: </strong> Basic Programming knowledge (C or C++)
+                </p>
+            </div>
+            <br>
+            <button class="lowButton" onclick="noDate()"><strong>Enroll</strong></button>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" style="padding-top: 90px;" src="images/course1.png" />
+        </div>
+    </div>
+</div>
+
+<section id="content">
+    <h4 class="sideHead">Course Contents</h4>
+    <div class="container col-md-10 offset-md-1 mt-5 mb-5">
+        <div class="row">
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 1</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Introduction</div><div>15 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>What is Python?</div><div>5 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Why Python?</div><div>5 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Course Review</div><div>5 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 2</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Installation</div><div>15 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Installing Python 3.7</div><div>5 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Python Installer Package</div><div>5 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Essential Libraries</div><div>5 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 3</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Basic Concepts</div><div>30 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>I/O Functions</div><div>10 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Variables & Expressions</div><div>10 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Datatypes & Conversions</div><div>10 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 4</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Control Structures</div><div>45 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Operators & Operations</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>List, Tuple & Dictionary</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Ranges & Loops</div><div>15 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 5</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Functions & Modules</div><div>45 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Functions</div><div>20 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Modules</div><div>20 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>In-built Functions</div><div>5 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 6</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>File Handling</div><div>30 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>I/O File Handling</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Error Handling</div><div>10 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Comments</div><div>5 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 7</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Functional Programming</div><div>50 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Lambda Function</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Maps & Filters</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Sets & Recursions</div><div>20 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 8</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>OOPs Concepts</div><div>50 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Class</div><div>20 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Inheritance</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Overloading</div><div>15 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-5">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">CHAPTER 9</span></h4>
+                        <h5 class="card-title"><strong>
+                            <div class="d-flex justify-content-between">
+                                <div>Conclusion</div><div>25 mins</div>
+                            </div>
+                        </strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                        <div class="d-flex justify-content-between">
+                            <div>Recap</div><div>15 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>What to do next?</div><div>5 mins</div>
+                        </div><br />
+                        <div class="d-flex justify-content-between">
+                            <div>Thank you !!!</div><div>5 mins</div>
+                        </div><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="timepathwork">
+    <h4 class="sideHead">Perks of basics of python</h4>
+    <div class="container" style="padding-top: 25px;">
+        <!-- First Content Section-->
+        <div class="pt-5 row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im1.png" height="30px" alt="ti1" /></div>
+            </div>
+            <div class="col-6">
+                <h5>INNOVATIVE PROJECTS</h5>
+                <p>Consists of complex embedded projects tailored to fit the needs of the industry.</p>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!-- Second Content Section-->
+        <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+                <h5>COMFORTABLE SCHEDULE</h5>
+                <p>Participants will be eligible for 10% discount on all future workshops.</p>
+            </div>
+            <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t3im2.png" height="30px" alt="ti2" /></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" style="padding: 0;">
+    <div class="count-bg container-fluid" >
+        <div class="container">
+            <div class="row" id="contactPart">
+                <div class="col-sm-4 contact-set contact-link">
+                    <h4>Contact</h4>
+                    <br><br>
+                    <a href="tel:+919789815246">Tel: +91 9789815246</a><br><br>
+                    <a href="tel:+91 9840992523">Tel: +91 9840992523</a><br><br>
+                    <a href="mailto:kkishore9891@gmail.com">Mail: Queries@falcon.in</a>
+                </div>
+                <div class="col-sm-4 contact-set">
+                    <h4>Visit us</h4>
+                    <br>
+                    <p class="contact-set" style="line-height: 35px;color: white;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
+                </div>
+                <div class="col-sm-4 contact-set">
+                    <h4>Follow us</h4>
+                    <div class="social-set">
+                        <a href="https://www.youtube.com/channel/UC5xtCVvdDo4zcra9DqoelIA" target="_blank" ><i class="so-ico fa fa-youtube-play" ></i></a>
+                        <a href="#" ><i class="so-ico fa fa-instagram" ></i></a>
+                        <a href="#" ><i class="so-ico fa fa-facebook-official" ></i></a>
+                        <a href="#" ><i class="so-ico fa fa-linkedin" ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function noDate()
+    {
+        Swal.fire({
+            title: 'Our Apologies..',
+            text: 'Currently no batches have been scheduled. Next batch dates will be announced soon!',
+            imageUrl: "images/logo.png",
+            imageAlt: 'Falcon',
+            footer: '<a href="contact.html">Contact us for more information</a>'
+        })
+    }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>

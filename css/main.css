@@ -1,3 +1,7 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 html, body{
     height: 100%;
     font-size: 1rem;
@@ -7,9 +11,12 @@ html, body{
     box-shadow: none;
 }
 
+#navbarColap ul {
+    margin-right: 35px;
+}
 .navbar-nav > li{
-    padding-left:15px;
-    padding-right:15px;
+    padding-left:28px;
+    padding-right:28px;
 }
 
 .nav-item a{
@@ -41,6 +48,27 @@ html, body{
 
 .BannerText{
     line-break: auto;
+}
+
+.wbl{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.wbr{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .wbl{
+        border-radius: 0;
+    }
+
+    .wbr{
+        border-radius: 0;
+    }
 }
 
 .highButton{
@@ -123,7 +151,11 @@ html, body{
 }
 
 #timepath{
-    padding-top: 150px;
+    margin-top: 150px;
+}
+
+#timepathwork{
+    margin-top: 50px;
 }
 
 section{
@@ -147,8 +179,6 @@ section{
     left: 60px;
     border-bottom: 3px solid #91B5E8;
 }
-
-/**/
 
 .c-no{
     height:275px;
@@ -179,12 +209,16 @@ section{
     min-height: 200px;
 }
 
+#contact{
+    margin-top: 35px;
+}
+
 .contact-link a{
     color: white;
 }
 
 .so-ico{
-    font-size:25px;
+    font-size:20px;
     margin: 10px;
     padding: 15px;
     background-color: white;
@@ -207,13 +241,13 @@ section{
     margin: 30px 0px;
 }
 
-.contact-set h3{
+.contact-set h4{
     display: inline-block;
     padding-bottom: 5px;
     position: relative;
 }
 
-.contact-set h3:before{
+.contact-set h4:before{
     content: "";
     position: absolute;
     width: 85%;
@@ -225,4 +259,15 @@ section{
 
 .custom-file-control, .form-control, .is-focused .custom-file-control, .is-focused .form-control {
     background-image: linear-gradient(0deg,rgba(24,40,62,1) 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+
+.cid-no{
+    padding: 0px 15px;
+    background-color: #6D9DE1;
+    color: white;
+    border-radius: 30px;
+}
+
+.card{
+    margin-top: 30px;
 }

@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <title>Falcon Education</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 <body>
 
 <header>
-
     <nav class="navbar navbar-expand-lg navbar-dark gradient">
-        <img class="navbar-brand" src="logo1.png" width="35" style="margin-left: 25px;" />
+        <a href="index.html"><img class="navbar-brand" src="images/logo.png" width="35" style="margin-left: 25px;" alt="falcon" /></a>
         <h3 class="CompanyName">Falcon</h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColap" aria-controls="navbarColap" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,23 +30,15 @@
                     <a class="nav-link" href="workshop.html">Workshops</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Online courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Students</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="courses.html">Online courses</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact us<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
-                </li>
             </ul>
         </div>
     </nav>
+</header>
 
     <div class="col-md-10 container pt-3">
         <h3 style="padding: 25px;">Hello! Leave us a message...</h3>
@@ -54,60 +47,60 @@
                 <div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=srinivasan%20street%2C%20mandaveli&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
             </div>
             <div class="col-md-6">
-                        <form class="text-center container" action="#" style="border: 2px solid rgba(24,40,62,1);">
+                        <form class="text-center container" id="conForm" style="border: 2px solid rgba(24,40,62,1);">
 
-                            <div class="col-md-12 row" style="margin: 15px;margin-top: 75px;">
+                            <div class="col-md-12 row" style="margin: 75px 15px 15px 15px;">
                                 <div class="col-md-4">
                                     <label for="name"><strong>NAME</strong></label>
                                 </div>
                                 <div class="col-md-8">
-                                    <input type="text" id="name" class="form-control">
+                                    <input type="text" id="name" required class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-12 row" style="margin: 15px;margin-top: 50px;">
+                            <div class="col-md-12 row" style="margin: 50px 15px 15px 15px;">
                                 <div class="col-md-4">
                                     <label for="email"><strong>EMAIL</strong></label>
                                 </div>
                                 <div class="col-md-8">
-                                    <input type="text" id="email" class="form-control">
+                                    <input type="text" required id="email" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-12 row" style="margin: 15px;margin-top: 50px;">
+                            <div class="col-md-12 row" style="margin: 75px 15px 15px 15px;">
                                 <div class="col-md-4">
                                     <label for="message"><strong>MESSAGE</strong></label>
                                 </div>
                                 <div class="col-md-8">
-                                    <textarea id="message" class="form-control md-textarea" rows="3"></textarea>
+                                    <textarea id="message" required class="form-control md-textarea" rows="3"></textarea>
                                 </div>
                             </div>
-                            <button class="highButton" style="margin: 50px;"><strong>SUBMIT</strong></button>
+                            <button type="submit" onsubmit="cant()" class="highButton" style="margin: 50px;"><strong>SUBMIT</strong></button>
                         </form>
             </div>
         </div>
     </div>
-</header>
 
 
-<section id="contact">
+
+<section id="contact" style="padding: 0;">
     <div class="count-bg container-fluid" >
         <div class="container">
             <div class="row" id="contactPart">
                 <div class="col-sm-4 contact-set contact-link">
-                    <h3>Contact</h3>
+                    <h4>Contact</h4>
                     <br><br>
                     <a href="tel:+919789815246">Tel: +91 9789815246</a><br><br>
                     <a href="tel:+91 9840992523">Tel: +91 9840992523</a><br><br>
                     <a href="mailto:kkishore9891@gmail.com">Mail: Queries@falcon.in</a>
                 </div>
                 <div class="col-sm-4 contact-set">
-                    <h3>Visit us</h3>
+                    <h4>Visit us</h4>
                     <br>
-                    <p class="contact-set" style="line-height: 35px;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
+                    <p class="contact-set" style="line-height: 35px;color: white;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
                 </div>
                 <div class="col-sm-4 contact-set">
-                    <h3>Follow us</h3>
+                    <h4>Follow us</h4>
                     <div class="social-set">
-                        <a href="#" ><i class="so-ico fa fa-youtube-play" ></i></a>
+                        <a href="https://www.youtube.com/channel/UC5xtCVvdDo4zcra9DqoelIA" target="_blank" ><i class="so-ico fa fa-youtube-play" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-instagram" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-facebook-official" ></i></a>
                         <a href="#" ><i class="so-ico fa fa-linkedin" ></i></a>
@@ -117,6 +110,16 @@
         </div>
     </div>
 </section>
+
+<script>
+    document.getElementById("conForm").onsubmit = function() {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Something went wrong!'
+        })
+    }
+</script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
