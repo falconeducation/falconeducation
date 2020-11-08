@@ -104,44 +104,44 @@ html, body{
     cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) {
-    .img-responsive {
-        /*width: 950px;*/
-    }
+/*@media screen and (min-width: 1200px) {*/
+/*    .img-responsive {*/
+/*        !*width: 950px;*!*/
+/*    }*/
 
-    .gradient{
-        height: 80.5%;
-    }
-}
+/*    .gradient{*/
+/*        height: 80.5%;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-width: 1009px) and (max-width: 1199px) {
+/*@media screen and (min-width: 1009px) and (max-width: 1199px) {*/
 
-    .gradient{
-        height: 72%;
-    }
-}
+/*    .gradient{*/
+/*        height: 72%;*/
+/*    }*/
+/*}*/
 
 
-@media screen and (min-width: 992px) and (max-width: 1008px) {
+/*@media screen and (min-width: 992px) and (max-width: 1008px) {*/
 
-    .gradient{
-        height: 73.3%;
-    }
-}
+/*    .gradient{*/
+/*        height: 73.3%;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/*@media screen and (min-width: 768px) and (max-width: 991px) {*/
 
-    .gradient{
-        height: 80%;
-    }
-}
+/*    .gradient{*/
+/*        height: 80%;*/
+/*    }*/
+/*}*/
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+/*@media screen and (min-width: 300px) and (max-width: 767px) {*/
 
-    .gradient{
-        height: 100%;
-    }
-}
+/*    .gradient{*/
+/*        height: 100%;*/
+/*    }*/
+/*}*/
 
 @media screen and (min-width: 300px) {
     .img-responsive {
@@ -151,7 +151,7 @@ html, body{
 }
 
 #timepath{
-    margin-top: 150px;
+    /*margin-top: 250px;*/
 }
 
 #timepathwork{
