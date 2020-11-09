@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Falcon Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark gradient">
+        <a href="index.html"><img class="navbar-brand" src="images/logo.png" width="35" style="margin-left: 25px;" alt="falcon" /></a>
+        <h3 class="CompanyName">Falcon</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColap" aria-controls="navbarColap" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColap">
+            <ul class="navbar-nav ul-drop ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workshops</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01" style="background-color: rgba(24,40,62,1);">
+                        <a class="dropdown-item" href="cvworkshop1.html">Computer Vision Part-I</a>
+                        <a class="dropdown-item" href="cvworkshop2.html">Computer Vision Part-II</a>
+                        <a class="dropdown-item" href="workshop.html">Embedded Systems</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Online courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <div class="col-md-11 container pt-3">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3 class="BannerHead"><strong>Computer Vision Workshop <span style="white-space: nowrap;">Part - II</span></strong></h3>
+                <p class="BannerText" style="color: rgba(24,40,62,1);"><strong>They are watching us!</strong></p>
+                <p class="BannerText">Cameras are no longer just tools to take pictures. Smartphones are using cameras to scan QR codes, to create virtual Pokémon that interacts with the environment and much more!! Tesla uses sophisticated algorithms to automatically drive their cars. Hollywood uses complicated CGI effects to create awe-inspiring movies. Do you want to ride the AI wave? Computer Vision is just the thing for you. In this workshop students get to learn the basic image processing and deep-learning concepts required to perform various computer vision tasks.</p>
+                <div class="container" style="background-color: #F1F6FC;padding: 25px;border-radius: 5px;">
+                    <h5><strong>Course Details</strong></h5><br>
+                    <p>
+                        <strong>Date: </strong> Coming Soon!<br>
+                        <strong>Duration: </strong> 4 Days (2 Weekends)<br>
+                        <strong>Mode of learning: </strong> Live online class<br>
+                        <strong>Pre-Requisites: </strong> <a href="cvworkshop1.html"> Computer Vision Workshop Part - I</a>
+                    </p>
+                </div>
+                <br>
+                <button class="lowButton" onclick="noDate()"><strong>Register</strong></button>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive" style="padding-top: 90px;" src="images/workshop1.png" />
+            </div>
+        </div>
+    </div>
+
+<section id="content">
+    <h4 class="sideHead">Course Contents</h4>
+    <div class="container col-md-10 offset-md-1 mt-5 md-5">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 1</span></h4>
+                        <h5><strong>Perceptron</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Haar Cascade Introduction<br />
+                            - Face Detection<br />
+                            - Working with Perceptron<br />
+                            - Neuron activation functions<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 2</span></h4>
+                        <h5><strong>Neural Networks</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Gradient Descent<br />
+                            - Optimizers<br />
+                            - Working with Tensorflow 2.0 (Keras)<br />
+                            - Multi Layer Perceptron<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 3</span></h4>
+                        <h5><strong>CNN Classifiers</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Convolutional Neural Networks<br />
+                            - <strong>Mini Project 1 & 2:<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Handwritten Digit Recognition<br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cat Dog Classifier</strong><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card mt-3" style="background-color: #F1F6FC;border-radius: 15px;">
+                    <div class="card-body">
+                        <h4 class="mb-3 text-center"><span class="cid-no">DAY 4</span></h4>
+                        <h5><strong>Projects</strong></h5>
+                        <p class="card-text" style="line-height: 30px;">
+                            - Creating an image dataset<br /><br />
+                            - <strong>Mega project: <br />
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facial Emotion Classifier</strong><br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="timepathwork">
+    <h4 class="sideHead">Perks of attending this Workshop</h4>
+
+    <div class="container" style="padding-top: 25px;">
+        <!-- First Content Section-->
+        <div class="pt-5 row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im1.png" height="30px" alt="ti1" /></div>
+            </div>
+            <div class="col-6">
+                <h5>INNOVATIVE PROJECTS</h5>
+                <p>Consists of complex embedded projects tailored to fit the needs of the industry.</p>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!-- Second Content Section-->
+        <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+                <h5>Software Tools</h5>
+                <p>Students will be provided with the State-Of-Art software packages and Datasets used in industries.</p>
+            </div>
+            <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im2.png" height="30px" alt="ti2" /></div>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner right-bottom"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner top-left"></div>
+            </div>
+        </div>
+        <!-- Third Content Section -->
+        <div class="row align-items-center connecting-lines d-flex">
+            <div class="col-2 text-center left-full d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im3.png" height="30px" alt="ti3" /></div>
+            </div>
+            <div class="col-6">
+                <h5>PROJECT GUIDANCE</h5>
+                <p>Students will be provided with assistance on projects and will be given career advice.</p>
+            </div>
+        </div>
+        <!-- Path Line -->
+        <div class="row timeline">
+            <div class="col-2">
+                <div class="corner top-right"></div>
+            </div>
+            <div class="col-8">
+                <hr/>
+            </div>
+            <div class="col-2">
+                <div class="corner left-bottom"></div>
+            </div>
+        </div>
+        <!-- Fourth Content Section-->
+        <div class="row align-items-center justify-content-end connecting-lines d-flex">
+            <div class="col-6 text-right">
+                <h5>DISCOUNTED OFFER</h5>
+                <p>Participants will be eligible for 10% discount on all future workshops.</p>
+            </div>
+            <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center">
+                <div class="circle font-weight-bold"><img style="filter: invert(100%)" src="images/t2im4.png" height="30px" alt="ti4" /></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" style="padding: 0;">
+    <div class="count-bg container-fluid" >
+        <div class="container">
+            <div class="row" id="contactPart">
+                <div class="col-sm-4 contact-set contact-link">
+                    <h4>Contact</h4>
+                    <br><br>
+                    <a href="tel:+919789815246">Tel: +91 9789815246</a><br><br>
+                    <a href="tel:+91 8939403525">Tel: +91 8939403525</a><br><br>
+                    <a href="mailto:contact@falconedu.in">Mail: contact@falconedu.in</a>
+                </div>
+                <div class="col-sm-4 contact-set">
+                    <h4>Visit us</h4>
+                    <br>
+                    <p class="contact-set" style="line-height: 35px;color: white;">#2 Urvasi Apartments, 10 B Srinivasan St., Mandaveli, Chennai - 600028.</p>
+                </div>
+                <div class="col-sm-4 contact-set">
+                    <h4>Follow us</h4>
+                    <div class="social-set">
+                        <a href="https://www.youtube.com/channel/UC5xtCVvdDo4zcra9DqoelIA" target="_blank" ><i class="so-ico fa fa-youtube-play" ></i></a>
+                        <a href="https://www.instagram.com/falcon_edutech/" target="_blank" ><i class="so-ico fa fa-instagram" ></i></a>
+                        <a href="https://www.linkedin.com/company/falcon-edu/" target="_blank" ><i class="so-ico fa fa-linkedin" ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    function noDate()
+    {
+        Swal.fire({
+            title: 'Our Apologies..',
+            text: 'Currently no batches have been scheduled. Next batch dates will be announced soon!',
+            imageUrl: "images/logo.png",
+            imageAlt: 'Falcon',
+            footer: '<a href="contact.html">Contact us for more information</a>'
+        })
+    }
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+</html>

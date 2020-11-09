@@ -28,8 +28,13 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="workshop.html">Workshops</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workshops</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01" style="background-color: rgba(24,40,62,1);">
+                    <a class="dropdown-item" href="cvworkshop1.html">Computer Vision Part-I</a>
+                    <a class="dropdown-item" href="cvworkshop2.html">Computer Vision Part-II</a>
+                    <a class="dropdown-item" href="workshop.html">Embedded Systems</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="courses.html">Online courses</a>
@@ -46,7 +51,7 @@
             <div class="col-sm-6">
                 <h1 class="BannerHead">A Revolution in <br />Education</h1><br />
                 <p class="BannerText">Falcon offers Hands-on workshops and Online courses of superior quality at an affordable cost!!</p>
-                <button class="highButton">Workshops</button>
+                <a href="#offer"><button class="highButton">Workshops</button></a>
             </div>
             <div class="col-sm-6">
                 <img class="img-responsive" style="padding-top: 110px;" src="images/land.png" alt="landing image" />
@@ -109,7 +114,7 @@
             </div>
             <div class="col-6">
                 <h5>STRENGTHEN THE RESUME</h5>
-                <p>We help you to create an attractive profile for the employees, facilitating successful interviews.</p>
+                <p>We help to create an attractive profile for job applicants.</p>
             </div>
         </div>
         <!-- Path Line -->
@@ -148,46 +153,45 @@
 
 
         <div class="container row">
-
             <div class="col-sm-4">
                 <div class="filterDiv workshop">
-                    <h5 class="card-title"><strong><u>Computer Vision Part - I</u></strong></h5><br>
+                    <a href="cvworkshop1.html" style="color: black;"><h5 class="card-title"><strong><u>Computer Vision <br /> (Part - I)</u></strong></h5></a><br>
                     <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;December 05 - December 13 <br>( 2 Weekends - 4 days )</p>
                     <p class="card-text"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Basic programming knowledge <br> ( C or C++ )</p>
-                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;IITM Research Park, Tharamani</p>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Live online class</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="filterDiv workshop">
-                    <h5 class="card-title"><strong><u>Computer Vision Part - II</u></strong></h5><br>
-                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;December 26 - January 03 <br>( 2 Weekends - 4 days )</p>
+                    <a href="cvworkshop2.html" style="color: black;"><h5 class="card-title"><strong><u>Computer Vision<br />  Part - II</u></strong></h5></a><br>
+                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon<br>( 2 Weekends - 4 days )</p>
                     <p class="card-text"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Basic programming knowledge <br> ( Python )</p>
-                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;IITM Research Park, Tharamani</p>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Live online class</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="filterDiv workshop">
-                    <h5 class="card-title"><strong><u>Embedded Systems Part - I</u></strong></h5><br>
-                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;February 06 - February 14 <br>( 2 Weekends - 4 days )</p>
+                    <a href="workshop.html" style="color: black;"><h5 class="card-title"><strong><u>Embedded Systems<br />  Part - I</u></strong></h5></a><br>
+                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon<br>( 2 Weekends - 4 days )</p>
                     <p class="card-text"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Basic programming knowledge <br> ( C or C++ )</p>
-                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;IITM Research Park, Tharamani</p>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Live online class</p>
                 </div>
             </div>
 
             <div class="col-sm-4 offset-sm-2">
                 <div class="filterDiv oc">
                     <h5 class="card-title"><strong><u>Python Course</u></strong></h5><br>
-                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon.</p>
+                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon</p>
                     <p class="card-text"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Basic programming knowledge <br> ( C or C++ )</p>
-                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;IITM Research Park, Tharamani</p>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Live online class</p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="filterDiv oc">
                     <h5 class="card-title"><strong><u>ROS Fundamentals</u></strong></h5><br>
-                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon.</p>
+                    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;Dates will be announced soon</p>
                     <p class="card-text"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;Basic programming knowledge <br> ( Python )</p>
-                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;IITM Research Park, Tharamani</p>
+                    <p class="card-text"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Live online class</p>
                 </div>
             </div>
         </div>
@@ -210,7 +214,7 @@
 <section id="car">
     <h4 class="sideHead">What people say</h4>
     <div class="col-lg-10 offset-lg-1 pt-5 pb-5">
-        <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="height: 300px;">
+        <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="height: 325px;">
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active text-center">
                     <img src="images/avatar.png" height="100px" alt="avatar">
@@ -281,8 +285,8 @@
                     <h4>Contact</h4>
                     <br><br>
                     <a href="tel:+919789815246">Tel: +91 9789815246</a><br><br>
-                    <a href="tel:+91 9840992523">Tel: +91 9840992523</a><br><br>
-                    <a href="mailto:Contact@falconedu.in">Mail: Contact@falconedu.in</a>
+                    <a href="tel:+91 8939403525">Tel: +91 8939403525</a><br><br>
+                    <a href="mailto:contact@falconedu.in">Mail: contact@falconedu.in</a>
                 </div>
                 <div class="col-sm-4 contact-set">
                     <h4>Visit us</h4>
