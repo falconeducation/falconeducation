@@ -290,3 +290,27 @@ section{
         background-position: 100% 0;
     }
 }
+
+#team{
+    background-color: #23334B;
+    color: white;
+}
+
+.teamMem{
+    background-color: #3F5068;
+    color: white;
+    padding: 10px;
+    margin: 30px 25px 50px 25px;
+    border-radius: 10px;
+}
+
+#learn{
+    background-color: #EFEFEF;
+}
+
+.blackLayer{
+    background-image: url('../images/aboutus.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
