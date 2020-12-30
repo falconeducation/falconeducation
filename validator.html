@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/timeline.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.4/pdfobject.js"></script>
 </head>
-<body>
+<body class="count-bg">
 
 <header>
 
@@ -40,8 +41,8 @@
                 <li class="nav-item">
                     <a class="nav-link" href="courses.html">Online courses</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact us</a>
@@ -51,76 +52,29 @@
     </nav>
 </header>
 
-<div class="blackLayer container col-sm-12">
-    <div class="row align-items-center">
-        <div class="col-sm-8 offset-sm-2" style="text-align: center;font-weight: 500; margin-top: 200px;margin-bottom: 200px;">
-            <h2 style="color: white;">Education on cutting-edge topics like AI and Embedded Systems.</h2>
-            <br />
-            <h5>Falcon is an organization co-founded by alumni of Anna University, MIT Campus. Falcon strives to provide high-quality education on cutting-edge topics like artificial intelligence and embedded systems. We share the new India's aspirations of self-reliance and seek to produce the visionaries and the skilled workforce required to realise that objective, through workshops which are specially designed with our project-based curriculum.</h5>
-        </div>
-    </div>
-</div>
-
-
-<section id="wedo">
-    <h4 class="sideHead">What we do</h4>
-    <div class="container col-sm-10 offset-md-1 mt-5 md-5">
+    <div class="col-md-11 container">
         <div class="row align-items-center">
-            <div class="col-sm-4 offset-sm-1">
-                <img class="img-responsive" src="images/Asset4.png" />
-            </div>
-            <div class="col-sm-6 offset-sm-1">
-                <h3>Conducting many successful workshops with our team, comprising of people who have worked on a wide array of projects.</h3>
-                <br />
-                <p>We have a history of conducting many successful workshops in inter-collegiate symposiums. Our team comprises of people who have worked on a wide array of projects such as Self Driving Cars, Surveillance UAVs, Home Automation, Analysis of Skin Burns, etc., demonstrating our profiency with the use of promising technologies like Artificial Intelligence and Robotics and now, we are thriving to do more.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="team">
-    <div class="container col-md-10 offset-md-1 md-5" style="text-align: center">
-        <div class="row align-items-center">
-            <h4 class="sideHead">Our Team</h4>
-            <div class="col-sm-12">
-                <h5>A team that has worked on a vast array of projects, with the desire to  guide the upcoming generation to learn <br /> what they know , do more and achieve greater heights</h5>
-            </div>
-            <div class="col-sm-5 offset-sm-1 teamMem row align-items-center" style="padding:25px;">
-                <div class="col-md-5"><img class="img-responsive" style="border-radius: 50%;width: 150px;" src="images/kishore.jpeg" /></div>
-                <div class="col-md-7">
-                    <h4>KISHORE KUMAR</h4>
-                    <p style="text-align: justify;">Kishore is a tech-geek. He is passionate about Computer vision and Robotics. He loves to teach and specialises in breaking down complex theoretical concepts through interactable software.</p>
+            <div class="col-md-6 row">
+                <div class="col-md-12">
+                    <h3 class="BannerHead"><strong>Certificate Verification</strong></h3>
+                </div>
+                <br>
+                <div class="col-md-6">
+                    <input type="text" name="roll" id="roll" style="padding: 10px 23%; border-radius: 5px; font-weight: bold;">
+                </div>
+                <div class="col-md-6">
+                    <button class="highButton" onclick="noDate()"><strong>Verify</strong></button>
                 </div>
             </div>
-            <div class="col-sm-5 offset-sm-1 teamMem row align-items-center" style="padding:25px;">
-                <div class="col-md-5"><img class="img-responsive" style="border-radius: 50%;width: 150px;" src="images/anirudh.jpeg" /></div>
-                <div class="col-md-7">
-                    <h4>ANIRUDH</h4>
-                    <p style="text-align: justify;">Anirudh is a happy-go-lucky guy. He enjoys conducting workshops and has successfully hosted inter-college workshops for the past two years. On a side note, he is a huge sports buff as well.</p>
-                </div>
+            <div class="col-md-6">
+                <img class="img-responsive" id="certificate" style="padding-top: 150px;display: block;margin-left: auto;margin-right: auto;" src="images/completed.png" alt="Invalid Falcon certificate code" onerror="errorHandle()" />
             </div>
         </div>
     </div>
-</section>
 
-<section id="learn" style="padding-bottom: 50px;">
-    <div class="container col-sm-10 offset-md-1 md-5">
-        <h3 style="font-weight: 900;" class="sideHead">Learn with us!</h3>
-        <div class="row align-items-center">
-            <div class="col-sm-6 offset-sm-1">
-                <h5>We provided a varied array of Workshops and Online courses.<br />Check it out and choose what you wish to learn.</h5>
-                <br />
-                <a href="cvworkshop1.html"><button class="highButton">Explore Now</button></a>
-            </div>
-            <div class="col-sm-4 offset-sm-1">
-                <img class="img-responsive" src="images/Asset5.png" />
-            </div>
-        </div>
-    </div>
-</section>
 
-<section id="contact" style="padding: 0;margin-top: 0;">
-    <div class="count-bg container-fluid" >
+<section id="contact" style="padding-top: 60px;">
+    <div class="count-bg container-fluid">
         <div class="container">
             <div class="row" id="contactPart">
                 <div class="col-sm-4 contact-set contact-link">
@@ -152,15 +106,25 @@
 </section>
 
 <script>
-    function noDate()
+
+    function errorHandle()
     {
         Swal.fire({
-            title: 'Our Apologies..',
-            text: 'Currently no batches have been scheduled. Next batch dates will be announced soon!',
+            title: 'Invalid Certification Code...',
+            text: 'Please check the Certification Code or contact the admin in case of any disputes.',
             imageUrl: "images/logo.png",
             imageAlt: 'Falcon',
             footer: '<a href="contact.html">Contact us for more information</a>'
         })
+
+        var x = document.getElementById('roll').value;
+        document.getElementById('certificate').src = "images/completed.png";
+    }
+    function noDate()
+    {
+
+        var x = document.getElementById('roll').value;
+        document.getElementById('certificate').src = "Documents/"+x+".jpg";
     }
 </script>
 
